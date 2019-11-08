@@ -14,7 +14,7 @@
     <test name="Automation tests">
         <classes>
 
-            <class name="homepagetest.TestAllCases"/>
+            <class name="homepgeTest"/>
 
 
 

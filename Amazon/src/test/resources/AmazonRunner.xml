@@ -14,7 +14,7 @@
     <test name="Automation tests">
         <classes>
 
-            <class name="SearchResults"/>
+            <class name="HomePageTest"/>
 
 
 

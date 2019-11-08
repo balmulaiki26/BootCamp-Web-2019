@@ -12,7 +12,7 @@ public class HomePageTest extends CommonAPI {
     }
 
 
-    @Test
+   @Test
     public void SignIn() {
         homePagePOM.logIn();
     }
@@ -24,5 +24,20 @@ public class HomePageTest extends CommonAPI {
         clickOnElementByXpath("//span[contains(text(),'Advil Pain Reliever/Fever Reducer, 200mg Ibuprofen')]");
         clickOnElementByXpath("//input[@id='add-to-cart-button']");
         clickOnElementByXpath("//a[@id='hlb-ptc-btn-native']");
+    }
+
+   @Test
+    public void validateMenuButton(){
+        homePagePOM.menuButton();
+    }
+
+    @Test
+    public void validateLanguagenutton(){
+        homePagePOM.clickLanguage();
+    }
+
+    @Test
+    public void validateDropDown(){
+        homePagePOM.testDropDown();
     }
 }
